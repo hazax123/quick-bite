@@ -111,8 +111,7 @@ em{font-family:'Kaushan Script',cursive;font-style:normal;text-transform:none;co
 .foot-grid{display:flex;align-items:center;justify-content:space-between;gap:1rem 2rem;flex-wrap:wrap}
 .foot-logo{margin-right:0}
 .foot a{color:#fff}
-.halal{width:64px;height:64px;border:2.5px solid var(--orange);color:var(--orange);border-radius:50%;display:grid;place-items:center;flex:none}
-.halal span{font-family:"Geeza Pro","Noto Naskh Arabic","Noto Sans Arabic","Segoe UI",Tahoma,sans-serif;font-size:1.35rem;font-weight:700;line-height:1;letter-spacing:0}
+.halal{width:84px;height:84px;flex:none;display:block}
 .made{margin-top:1.5rem;padding-top:1rem;border-top:1px solid #2a2a2a;font-size:.85rem;color:#8d877e}
 
 .mbar{display:none}
