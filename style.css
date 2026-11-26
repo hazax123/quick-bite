@@ -258,3 +258,14 @@ footer{margin-top:3rem;padding:3.5rem 0 2rem;background:var(--bg2);border-top:1p
 .cat .ph.illu img{padding:7%;transition:transform .3s}
 .cat:hover .ph.illu img{transform:scale(1.06) rotate(-2deg)}
 .insta .ph.illu img{padding:12%}
+
+/* Forslagsbanner (fjernes når eieren har sagt ja) */
+.proposal{background:var(--text);color:#fff;font-size:.88rem}
+.proposal .wrap{display:flex;align-items:center;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;padding-top:.55rem;padding-bottom:.55rem}
+.proposal b{color:var(--gold);margin-right:.4rem}
+.proposal span{opacity:.85}
+.proposal a{color:var(--text);background:var(--gold);text-decoration:none;font-weight:700;padding:.3rem .8rem;border-radius:999px;white-space:nowrap}
+.owner{background:linear-gradient(115deg,#fff1d9,#ffe2b8)}
+.owner-list{list-style:none;margin-top:1.1rem;display:grid;gap:.45rem;font-weight:600}
+.owner-list li{display:flex;gap:.55rem;align-items:baseline}
+.owner-list li::before{content:"✓";color:var(--green);font-weight:800}
